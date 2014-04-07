@@ -4093,9 +4093,9 @@ DIN A4, landscape with location and doc. field</description>
 <part name="RX" library="wirepad" deviceset="2,15/1,0" device="" value="0"/>
 <part name="TX" library="wirepad" deviceset="2,15/1,0" device="" value="1"/>
 <part name="2" library="wirepad" deviceset="2,15/1,0" device="" value="PD2"/>
-<part name="~3" library="wirepad" deviceset="2,15/1,0" device="" value="PD3"/>
-<part name="~5" library="wirepad" deviceset="2,15/1,0" device="" value="PD5"/>
-<part name="~6" library="wirepad" deviceset="2,15/1,0" device="" value="PD6"/>
+<part name="3" library="wirepad" deviceset="2,15/1,0" device="" value="PD3"/>
+<part name="5" library="wirepad" deviceset="2,15/1,0" device="" value="PD5"/>
+<part name="6" library="wirepad" deviceset="2,15/1,0" device="" value="PD6"/>
 <part name="7" library="wirepad" deviceset="2,15/1,0" device="" value="PD7"/>
 <part name="A0" library="wirepad" deviceset="2,15/1,0" device="" value="PA0"/>
 <part name="A1" library="wirepad" deviceset="2,15/1,0" device="" value="PA1"/>
@@ -4159,15 +4159,15 @@ DIN A4, landscape with location and doc. field</description>
 <attribute name="NAME" x="110.998" y="76.8858" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="117.348" y="76.962" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="~3" gate="1" x="104.14" y="73.66" smashed="yes" rot="R180">
+<instance part="3" gate="1" x="104.14" y="73.66" smashed="yes" rot="R180">
 <attribute name="NAME" x="110.998" y="74.3458" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="117.348" y="74.422" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="~5" gate="1" x="104.14" y="68.58" smashed="yes" rot="R180">
+<instance part="5" gate="1" x="104.14" y="68.58" smashed="yes" rot="R180">
 <attribute name="NAME" x="110.998" y="69.2658" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="117.348" y="69.342" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="~6" gate="1" x="104.14" y="66.04" smashed="yes" rot="R180">
+<instance part="6" gate="1" x="104.14" y="66.04" smashed="yes" rot="R180">
 <attribute name="NAME" x="110.998" y="66.7258" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="117.348" y="66.802" size="1.778" layer="96" rot="R180"/>
 </instance>
@@ -4317,7 +4317,7 @@ DIN A4, landscape with location and doc. field</description>
 </net>
 <net name="N$17" class="0">
 <segment>
-<pinref part="~3" gate="1" pin="P"/>
+<pinref part="3" gate="1" pin="P"/>
 <pinref part="U1" gate="A" pin="PD3"/>
 <wire x1="101.6" y1="73.66" x2="96.52" y2="73.66" width="0.1524" layer="91"/>
 </segment>
@@ -4331,7 +4331,7 @@ DIN A4, landscape with location and doc. field</description>
 </net>
 <net name="N$19" class="0">
 <segment>
-<pinref part="~5" gate="1" pin="P"/>
+<pinref part="5" gate="1" pin="P"/>
 <pinref part="U1" gate="A" pin="PD5"/>
 <wire x1="101.6" y1="68.58" x2="96.52" y2="68.58" width="0.1524" layer="91"/>
 </segment>
@@ -4339,7 +4339,7 @@ DIN A4, landscape with location and doc. field</description>
 <net name="N$20" class="0">
 <segment>
 <pinref part="U1" gate="A" pin="PD6"/>
-<pinref part="~6" gate="1" pin="P"/>
+<pinref part="6" gate="1" pin="P"/>
 <wire x1="96.52" y1="66.04" x2="101.6" y2="66.04" width="0.1524" layer="91"/>
 </segment>
 </net>
